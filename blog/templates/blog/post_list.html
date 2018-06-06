@@ -3,6 +3,11 @@
         <title>Django Girls blog</title>
     </head>
     <body>
+    	
+    	<div>
+    		{{ posts }}
+		</div>
+
     	{% for post in posts %}
     		<div>
     			<p>published: {{ post.published_date }}</p>
